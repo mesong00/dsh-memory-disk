@@ -4,10 +4,10 @@
 
 ## 当前发布状态
 
-- 本地 git 已初始化并提交：`17a98fa feat: dsh-memory-disk 0.5.0`；
-- 远程已配置为 `https://github.com/mesong00/dsh-memory-disk.git`；
-- **push 尚未成功**：当前 git 凭据身份是 `songzdon`，GitHub 返回 `Permission to mesong00/dsh-memory-disk.git denied to songzdon`；
-- 需要：把 `songzdon` 加为该仓库 collaborator，或改用 `mesong00` 的凭据/PAT 后执行 `git push -u origin main`。
+- main 已推送到 GitHub（`git@github.com:mesong00/dsh-memory-disk.git`）；
+- 标签 `v0.5.0` 已推送；
+- 发布包：`dsh-memory-disk-0.5.0.tgz`（本地）；
+- GitHub Release 附件可手动在网页创建，或后续用带权限的 API/PAT 自动创建。
 
 ## 结论
 
