@@ -1,5 +1,14 @@
 # 发行版评估与发布清单（2026-10-30，0.5.0）
 
+仓库：<https://github.com/mesong00/dsh-memory-disk>
+
+## 当前发布状态
+
+- 本地 git 已初始化并提交：`17a98fa feat: dsh-memory-disk 0.5.0`；
+- 远程已配置为 `https://github.com/mesong00/dsh-memory-disk.git`；
+- **push 尚未成功**：当前 git 凭据身份是 `songzdon`，GitHub 返回 `Permission to mesong00/dsh-memory-disk.git denied to songzdon`；
+- 需要：把 `songzdon` 加为该仓库 collaborator，或改用 `mesong00` 的凭据/PAT 后执行 `git push -u origin main`。
+
 ## 结论
 
 **已经接近“装完就能用”：记忆引擎已内置，首次运行有目录向导，迁移包可导出/导入。**
