@@ -45,6 +45,12 @@ $dsh = "F:\DSH\resources\runtime\cli\bin\dsh.cmd"
 & $dsh plugin --profile desktop add "https://github.com/mesong00/dsh-memory-disk.git"
 ```
 
+或直接下载构建好的 [dsh-memory-disk-0.5.0.tgz](dist/dsh-memory-disk-0.5.0.tgz) 后：
+
+```powershell
+& $dsh plugin --profile desktop add "<下载路径>\dsh-memory-disk-0.5.0.tgz"
+```
+
 > 发行版前置条件：Python 3.10+、`zstandard`（`python -m pip install zstandard`）。
 > 记忆引擎已内置在 `server/`，不需要额外安装 F 盘的脚本；首次运行在界面里选目录即可。
 > 旧机器的 `F:\DSH记忆盘` 若存在会自动沿用，不需要重新配置。
