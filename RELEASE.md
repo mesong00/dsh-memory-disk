@@ -4,9 +4,10 @@
 
 ## 当前发布状态
 
-- main 已推送到 GitHub（`git@github.com:mesong00/dsh-memory-disk.git`）；
-- 标签 `v0.5.0` 已推送；
-- 发布包：`dsh-memory-disk-0.5.0.tgz`（本地）；
+- main 已推送到 GitHub（`git@github.com:mesong00/dsh-memory-disk.git`），最新提交 `51244dc`；
+- 标签 `v0.5.0` 已推送到同一提交；
+- 已随仓库提供下载包：
+  <https://github.com/mesong00/dsh-memory-disk/raw/main/dist/dsh-memory-disk-0.5.0.tgz>
 - GitHub Release 附件可手动在网页创建，或后续用带权限的 API/PAT 自动创建。
 
 ## 结论
