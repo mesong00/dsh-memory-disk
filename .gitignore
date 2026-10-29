@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+_*.png
+.tmp/
+__pycache__/
+*.pyc

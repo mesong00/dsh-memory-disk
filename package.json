@@ -1,0 +1,60 @@
+{
+  "name": "dsh-memory-disk",
+  "version": "0.5.0",
+  "description": "DeepSeek Harness plugin: self-contained local long-term memory disk with first-run setup, prompt brief, memory_search, sidebar page, conversation tab, settings page, importance/delete management, and memory migration.",
+  "type": "module",
+  "main": "index.js",
+  "author": "DSH Memory Disk contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesong00/dsh-memory-disk.git"
+  },
+  "homepage": "https://github.com/mesong00/dsh-memory-disk#readme",
+  "bugs": {
+    "url": "https://github.com/mesong00/dsh-memory-disk/issues"
+  },
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "RELEASE.md",
+    "LICENSE",
+    "docs/",
+    "server/记忆库.py",
+    "server/同步对话.py",
+    "server/检索记忆.py",
+    "server/插件数据.py",
+    "server/迁移记忆.py",
+    "server/生成目录树.py",
+    "server/记忆配置.json"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "memory",
+    "long-term-memory",
+    "settings"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+# Bundle patch layer for dsh-memory-disk.
+# The row loads this package's main entry as a plain Cordis host plugin.
+- insert:
+    - id: dsh-memory-disk
+      name: dsh-memory-disk
